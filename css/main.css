@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+    background:white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+div.container{
+    width:1240px;
+    margin-right: auto;
+    margin-left: auto;
+    background:white;
+    /* height:900px; */
+    
+}
+
+
+
+div.news1,
+div.news2{
+    background:white;
+    width:280px;
+    height:390px;
+    float:left;
+    border-bottom: 0.5px solid #cbcaca;
+    position: relative;
+    
+}
+
+div.news2{
+    height:413px;
+}
+
+div.news1:not(:last-child),
+div.news2:not(:last-child){
+    margin-right:40px;
+}
+
+div.news1{
+    margin-bottom: 50px;
+}
+
+h4{
+    padding:2px 11px 2px 11px;
+    margin-top:2px;
+    margin-bottom: 12px;
+    margin-left: 5px;
+    color:#605B5B;
+    background: white;
+    font-weight: 500;
+    
+}
+
+p{
+    margin:0;
+    color:red;
+    font-size: 14px;
+    
+}
+
+p1{
+    color:gray;
+    font-size: 14px;
+    
+}
+
+div.boc{
+    background:red;
+}
+
+div.news1 img.i2{
+    position: absolute;
+    left: 0;
+    top:260px;
+    border:1px solid #000;
+    
+}
+
+div.news2 img.i2{
+    position: absolute;
+    left: 0;
+    top:284px;
+    border:1px solid #000;
+    
+}
+
+div.news1 img.i3{
+    position: absolute;
+    right: 0;
+    top:253px;
+    
+}
+
+div.news2 img.i3{
+    position: absolute;
+    right: 0;
+    top:284px;
+    
+}
+
+
+
+img.i4{
+    position: absolute;
+    right: 0;
+    bottom:10px;
+}
+
+div.z p{
+    color:#9b9a9a;
+    line-height: 18px;
+    font-weight: 600;
+    font-size:13px;
+}
+
+div.z p:nth-child(3){
+    font-weight: normal;
+}
+
+div.z{
+    position: absolute;
+    bottom:12px;
+    left: 0;
+}
+
+/* div.news1:hover,
+div.news2:hover{
+    opacity: 0.7;
+    
+} */
+
+a{
+    text-decoration: none;
+}
+
+div.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+div.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+div.navbar li {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    border: 0.1px solid #ebebeb;
+    transition: color 0.3s, border-bottom 0.3s; /* 添加过渡效果 */
+
+}
+
+div.navbar a:hover {
+    color: red; /* 文字变成红色 */
+    border-bottom: 3px solid red; /* 添加底部边框 */
+}
+
+div.navbar a {
+    text-decoration: none;
+    color: #000000;
+    display: block; /* 使整個li可點擊 */
+    padding: 10px; /* 添加一些內邊距 */
+}
+
+div.text p{
+    font-size:40px;
+    margin-bottom: 30px;
+    text-align: center; /* 文字置中 */
+}
+
+.custom-button {
+    padding: 10px;
+    font-size:25px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 30px; 
+    margin-bottom: 40px;
+    margin-left: 440px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+.custom-button:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red; /* 添加邊框 */
+
+}
+div.footer{
+    font-size:25px;
+    text-align: center; /* 文字置中 */
+}
